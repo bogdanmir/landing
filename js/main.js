@@ -5,14 +5,19 @@ AOS.init({
   easing: 'ease-out-cubic',
 });
 
-var swiper = new Swiper('.swiper', {  
-  slidesPerView: 15,
-  spaceBetween: 16,
-  speed: 2000,
-  loop: true,
-  allowTouchMove: false,
-  autoplay: {
-    delay: 0,
-    disableOnInteraction: false
-  }
-});
+const clientsEl = document.querySelectorAll('.clients-carousel');
+if (clientsEl.length > 0) {
+  const clients = new Swiper('.clients-carousel', {
+    slidesPerView: 'auto',
+    spaceBetween: 16,
+    centeredSlides: true,
+    loop: true,
+    speed: 5000,
+    noSwiping: true,
+    noSwipingClass: 'swiper-slide',
+    autoplay: {
+      delay: 0,
+      disableOnInteraction: true,
+    },    
+  });
+}

@@ -7,16 +7,14 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link href="./css/vendors/aos.css" rel="stylesheet">
 
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/storm-section.css" rel="stylesheet">
-    <link href="css/output.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
     <link
         rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
     />
 </head>
 
-<body class="font-inter antialiased bg-slate-900 text-gray-100 tracking-tight">
+<body class="font-inter antialiased bg-gray-900 text-gray-100 tracking-tight">
 
     <!-- Page wrapper -->
     <div class="flex flex-col min-h-screen overflow-hidden">
@@ -80,7 +78,7 @@
             <section class="relative overflow-hidden">
 
                 <!-- Bg gradient -->
-                <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-slate-800 to-slate-900 opacity-60 h-[10rem] pointer-events-none -z-10" aria-hidden="true"></div>
+                <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-gray-800 to-gray-900 opacity-60 h-[10rem] pointer-events-none -z-10" aria-hidden="true"></div>
 
                 <!-- Illustration -->
                 <div class="absolute left-1/2 -translate-x-1/2 pointer-events-none -z-10" aria-hidden="true">
@@ -89,12 +87,10 @@
 
                 <div class="relative max-w-6xl mx-auto px-4 sm:px-6">
                     <div class="pt-32 pb-12 md:pt-40 md:pb-20">
-
                         <!-- Hero content -->
                         <div class="max-w-xl mx-auto md:max-w-[640px] md:mx-0 text-center md:text-left">
-
                             <div data-aos="zoom-out">
-                                <div class="relative text-sm text-gray-300 bg-gray-800 rounded-full inline-block px-4 py-1 mb-6 before:content-[''] before:absolute before:-z-10 before:inset-0 before:-m-0.5 before:bg-gradient-to-t before:from-gray-800 before:to-gray-800 before:via-gray-600 before:rounded-full">
+                                <div class="relative text-sm text-gray-300 bg-slate-800 rounded-full inline-block px-4 py-1 mb-6 before:content-[''] before:absolute before:-z-10 before:inset-0 before:-m-0.5 before:bg-gradient-to-t before:from-gray-800 before:to-gray-800 before:via-gray-600 before:rounded-full">
                                     <div class="text-gray-400">Launching Infinite Workspaces. <a class="font-medium text-blue-500 inline-flex items-center transition duration-150 ease-in-out group" href="#0">Learn More <span class="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span></a></div>
                                 </div>
                             </div>
@@ -110,112 +106,79 @@
                                     <a class="btn text-gray-300 bg-gradient-to-t from-gray-800 to-gray-700 hover:to-gray-800 w-full shadow-lg" href="#0">Explore Docs</a>
                                 </div>
                             </div>
-
                         </div>
-                        
                     </div>
                 </div>
             </section>
 
             <!-- Clients -->
-            <section class="py-12 md:py-20">
-                <div class="mb-10">
-                    <h4 class="h4 text-center">Trusting by leading brands, including:</h4>
+            <section>
+                <div class="py-12 md:py-20">
+
+                    <!-- Section header -->
+                    <div class="max-w-3xl mx-auto text-center pb-12 md:pb-16">
+                        <h2 class="h4 font-cabinet-grotesk text-gray-100">Trusting by leading brands, including:</h2>
+                    </div>
+
+                    <!-- Carousel built with Swiper.js [https://swiperjs.com/] -->
+                    <!-- * Initialized in src/js/main.js -->
+                    <!-- * Custom styles in src/css/additional-styles/theme.scss -->
+                    <div class="swiper clients-carousel swiper-container relative before:absolute before:inset-0 before:w-32 before:z-10 before:pointer-events-none before:bg-gradient-to-r before:from-slate-900 after:absolute after:inset-0 after:left-auto after:w-32 after:z-10 after:pointer-events-none after:bg-gradient-to-l after:from-slate-900">
+                        <div class="swiper-wrapper !ease-linear select-none">
+                            <!-- Carousel items -->
+                            <div class="swiper-slide !h-32 !w-32 bg-slate-800 rounded-2xl !flex items-center justify-center group">
+                                <img class="opacity-40 group-hover:opacity-100 transform duration-500 ease-in-out" src="./images/clients/client-01.svg" alt="Client 01" />
+                            </div>
+                            <div class="swiper-slide !h-32 !w-32 bg-slate-800 rounded-2xl !flex items-center justify-center group">
+                                <img class="opacity-40 group-hover:opacity-100 transform duration-500 ease-in-out" src="./images/clients/client-02.svg" alt="Client 02" />
+                            </div>
+                            <div class="swiper-slide !h-32 !w-32 bg-slate-800 rounded-2xl !flex items-center justify-center group">
+                                <img class="opacity-40 group-hover:opacity-100 transform duration-500 ease-in-out" src="./images/clients/client-03.svg" alt="Client 03" />
+                            </div>
+                            <div class="swiper-slide !h-32 !w-32 bg-slate-800 rounded-2xl !flex items-center justify-center group">
+                                <img class="opacity-40 group-hover:opacity-100 transform duration-500 ease-in-out" src="./images/clients/client-04.svg" alt="Client 04" />
+                            </div>
+                            <div class="swiper-slide !h-32 !w-32 bg-slate-800 rounded-2xl !flex items-center justify-center group">
+                                <img class="opacity-40 group-hover:opacity-100 transform duration-500 ease-in-out" src="./images/clients/client-05.svg" alt="Client 05" />
+                            </div>
+                            <div class="swiper-slide !h-32 !w-32 bg-slate-800 rounded-2xl !flex items-center justify-center group">
+                                <img class="opacity-40 group-hover:opacity-100 transform duration-500 ease-in-out" src="./images/clients/client-06.svg" alt="Client 06" />
+                            </div>
+                            <div class="swiper-slide !h-32 !w-32 bg-slate-800 rounded-2xl !flex items-center justify-center group">
+                                <img class="opacity-40 group-hover:opacity-100 transform duration-500 ease-in-out" src="./images/clients/client-07.svg" alt="Client 07" />
+                            </div>
+                            <div class="swiper-slide !h-32 !w-32 bg-slate-800 rounded-2xl !flex items-center justify-center group">
+                                <img class="opacity-40 group-hover:opacity-100 transform duration-500 ease-in-out" src="./images/clients/client-08.svg" alt="Client 08" />
+                            </div>
+                            <div class="swiper-slide !h-32 !w-32 bg-slate-800 rounded-2xl !flex items-center justify-center group">
+                                <img class="opacity-40 group-hover:opacity-100 transform duration-500 ease-in-out" src="./images/clients/client-09.svg" alt="Client 09" />
+                            </div>
+                            <div class="swiper-slide !h-32 !w-32 bg-slate-800 rounded-2xl !flex items-center justify-center group">
+                                <img class="opacity-40 group-hover:opacity-100 transform duration-500 ease-in-out" src="./images/clients/client-10.svg" alt="Client 10" />
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
-                <div class="clients-carousel swiper">
-                    <div class="swiper-wrapper">
-                        <!-- Slides -->
-                        <div class="swiper-slide !h-32 !w-32 bg-slate-800 !flex items-center justify-center rounded-2xl group">
-                            <img src="./images/clients/client-01.svg" alt="Client 01" class="opacity-40 group-hover:opacity-100 transition duration-500 ease-in-out">
-                        </div>
-                        <div class="swiper-slide !h-32 !w-32 bg-slate-800 !flex items-center justify-center rounded-2xl group">
-                            <img src="./images/clients/client-02.svg" alt="Client 02" class="opacity-40 group-hover:opacity-100 transition duration-500 ease-in-out">
-                        </div>
-                        <div class="swiper-slide !h-32 !w-32 bg-slate-800 !flex items-center justify-center rounded-2xl group">
-                            <img src="./images/clients/client-03.svg" alt="Client 03" class="opacity-40 group-hover:opacity-100 transition duration-500 ease-in-out">
-                        </div>
-                        <div class="swiper-slide !h-32 !w-32 bg-slate-800 !flex items-center justify-center rounded-2xl group">
-                            <img src="./images/clients/client-04.svg" alt="Client 04" class="opacity-40 group-hover:opacity-100 transition duration-500 ease-in-out">
-                        </div>
-                        <div class="swiper-slide !h-32 !w-32 bg-slate-800 !flex items-center justify-center rounded-2xl group">
-                            <img src="./images/clients/client-05.svg" alt="Client 05" class="opacity-40 group-hover:opacity-100 transition duration-500 ease-in-out">
-                        </div>
-                        <div class="swiper-slide !h-32 !w-32 bg-slate-800 !flex items-center justify-center rounded-2xl group">
-                            <img src="./images/clients/client-06.svg" alt="Client 06" class="opacity-40 group-hover:opacity-100 transition duration-500 ease-in-out">
-                        </div>
-                        <div class="swiper-slide !h-32 !w-32 bg-slate-800 !flex items-center justify-center rounded-2xl group">
-                            <img src="./images/clients/client-07.svg" alt="Client 07" class="opacity-40 group-hover:opacity-100 transition duration-500 ease-in-out">
-                        </div>
-                        <div class="swiper-slide !h-32 !w-32 bg-slate-800 !flex items-center justify-center rounded-2xl group">
-                            <img src="./images/clients/client-08.svg" alt="Client 08" class="opacity-40 group-hover:opacity-100 transition duration-500 ease-in-out">
-                        </div>
-                        <div class="swiper-slide !h-32 !w-32 bg-slate-800 !flex items-center justify-center rounded-2xl group">
-                            <img src="./images/clients/client-09.svg" alt="Client 09" class="opacity-40 group-hover:opacity-100 transition duration-500 ease-in-out">
-                        </div>
-                        <div class="swiper-slide !h-32 !w-32 bg-slate-800 !flex items-center justify-center rounded-2xl group">
-                            <img src="./images/clients/client-10.svg" alt="Client 10" class="opacity-40 group-hover:opacity-100 transition duration-500 ease-in-out">
-                        </div>
-                        <!--  -->
-                        <div class="swiper-slide !h-32 !w-32 bg-slate-800 !flex items-center justify-center rounded-2xl group">
-                            <img src="./images/clients/client-01.svg" alt="Client 01" class="opacity-40 group-hover:opacity-100 transition duration-500 ease-in-out">
-                        </div>
-                        <div class="swiper-slide !h-32 !w-32 bg-slate-800 !flex items-center justify-center rounded-2xl group">
-                            <img src="./images/clients/client-02.svg" alt="Client 02" class="opacity-40 group-hover:opacity-100 transition duration-500 ease-in-out">
-                        </div>
-                        <div class="swiper-slide !h-32 !w-32 bg-slate-800 !flex items-center justify-center rounded-2xl group">
-                            <img src="./images/clients/client-03.svg" alt="Client 03" class="opacity-40 group-hover:opacity-100 transition duration-500 ease-in-out">
-                        </div>
-                        <div class="swiper-slide !h-32 !w-32 bg-slate-800 !flex items-center justify-center rounded-2xl group">
-                            <img src="./images/clients/client-04.svg" alt="Client 04" class="opacity-40 group-hover:opacity-100 transition duration-500 ease-in-out">
-                        </div>
-                        <div class="swiper-slide !h-32 !w-32 bg-slate-800 !flex items-center justify-center rounded-2xl group">
-                            <img src="./images/clients/client-05.svg" alt="Client 05" class="opacity-40 group-hover:opacity-100 transition duration-500 ease-in-out">
-                        </div>
-                        <div class="swiper-slide !h-32 !w-32 bg-slate-800 !flex items-center justify-center rounded-2xl group">
-                            <img src="./images/clients/client-06.svg" alt="Client 06" class="opacity-40 group-hover:opacity-100 transition duration-500 ease-in-out">
-                        </div>
-                        <div class="swiper-slide !h-32 !w-32 bg-slate-800 !flex items-center justify-center rounded-2xl group">
-                            <img src="./images/clients/client-07.svg" alt="Client 07" class="opacity-40 group-hover:opacity-100 transition duration-500 ease-in-out">
-                        </div>
-                        <div class="swiper-slide !h-32 !w-32 bg-slate-800 !flex items-center justify-center rounded-2xl group">
-                            <img src="./images/clients/client-08.svg" alt="Client 08" class="opacity-40 group-hover:opacity-100 transition duration-500 ease-in-out">
-                        </div>
-                        <div class="swiper-slide !h-32 !w-32 bg-slate-800 !flex items-center justify-center rounded-2xl group">
-                            <img src="./images/clients/client-09.svg" alt="Client 09" class="opacity-40 group-hover:opacity-100 transition duration-500 ease-in-out">
-                        </div>
-                        <div class="swiper-slide !h-32 !w-32 bg-slate-800 !flex items-center justify-center rounded-2xl group">
-                            <img src="./images/clients/client-10.svg" alt="Client 10" class="opacity-40 group-hover:opacity-100 transition duration-500 ease-in-out">
-                        </div>
-                        <!--  -->
-                        <div class="swiper-slide !h-32 !w-32 bg-slate-800 !flex items-center justify-center rounded-2xl group">
-                            <img src="./images/clients/client-01.svg" alt="Client 01" class="opacity-40 group-hover:opacity-100 transition duration-500 ease-in-out">
-                        </div>
-                        <div class="swiper-slide !h-32 !w-32 bg-slate-800 !flex items-center justify-center rounded-2xl group">
-                            <img src="./images/clients/client-02.svg" alt="Client 02" class="opacity-40 group-hover:opacity-100 transition duration-500 ease-in-out">
-                        </div>
-                        <div class="swiper-slide !h-32 !w-32 bg-slate-800 !flex items-center justify-center rounded-2xl group">
-                            <img src="./images/clients/client-03.svg" alt="Client 03" class="opacity-40 group-hover:opacity-100 transition duration-500 ease-in-out">
-                        </div>
-                        <div class="swiper-slide !h-32 !w-32 bg-slate-800 !flex items-center justify-center rounded-2xl group">
-                            <img src="./images/clients/client-04.svg" alt="Client 04" class="opacity-40 group-hover:opacity-100 transition duration-500 ease-in-out">
-                        </div>
-                        <div class="swiper-slide !h-32 !w-32 bg-slate-800 !flex items-center justify-center rounded-2xl group">
-                            <img src="./images/clients/client-05.svg" alt="Client 05" class="opacity-40 group-hover:opacity-100 transition duration-500 ease-in-out">
-                        </div>
-                        <div class="swiper-slide !h-32 !w-32 bg-slate-800 !flex items-center justify-center rounded-2xl group">
-                            <img src="./images/clients/client-06.svg" alt="Client 06" class="opacity-40 group-hover:opacity-100 transition duration-500 ease-in-out">
-                        </div>
-                        <div class="swiper-slide !h-32 !w-32 bg-slate-800 !flex items-center justify-center rounded-2xl group">
-                            <img src="./images/clients/client-07.svg" alt="Client 07" class="opacity-40 group-hover:opacity-100 transition duration-500 ease-in-out">
-                        </div>
-                        <div class="swiper-slide !h-32 !w-32 bg-slate-800 !flex items-center justify-center rounded-2xl group">
-                            <img src="./images/clients/client-08.svg" alt="Client 08" class="opacity-40 group-hover:opacity-100 transition duration-500 ease-in-out">
-                        </div>
-                        <div class="swiper-slide !h-32 !w-32 bg-slate-800 !flex items-center justify-center rounded-2xl group">
-                            <img src="./images/clients/client-09.svg" alt="Client 09" class="opacity-40 group-hover:opacity-100 transition duration-500 ease-in-out">
-                        </div>
-                        <div class="swiper-slide !h-32 !w-32 bg-slate-800 !flex items-center justify-center rounded-2xl group">
-                            <img src="./images/clients/client-10.svg" alt="Client 10" class="opacity-40 group-hover:opacity-100 transition duration-500 ease-in-out">
+
+            </section>
+
+            <!-- Media section -->
+            <section class="video-wrapper bg-white module-platform-video module-platform-video--has-new-media-picker module-bg--white video-image-size--medium module-platform-video__alt-style">
+                <div class="module-platform-video__wrapper">
+                    <div class="module-platform-video__main js-scrolled py-2">
+                        <div class="module-container">
+                            <div class="module-platform-video__main-video module-platform-video__main-video--media-picker">
+                                <div class="media-picker ">
+                                    <div class="media-picker__media">
+                                        <div class="c-video c-video--vimeo " data-c-video="{&quot;type&quot;:&quot;vimeo&quot;,&quot;debugLog&quot;:false,&quot;showButton&quot;:false,&quot;playOnActive&quot;:false,&quot;autoplay&quot;:true,&quot;aspectRatio&quot;:&quot;16:9&quot;}">
+                                            <div class="c-video__vimeo-iframe-container">
+                                                <iframe title="Vimeo Player" class="c-video__vimeo-iframe mx-auto" src="https://player.vimeo.com/video/736989638?autoplay=1&amp;autopause=0&amp;controls=0&amp;loop=1&amp;muted=1&amp;transparent=0" frameborder="0" allow="autoplay;" data-c-video-vimeo-iframe="" data-ready="true"></iframe>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -251,59 +214,13 @@
                 </div>
             </section>
 
-
-            <!-- <section class="features-split section">
-                <div class="max-w-6xl mx-auto px-4 sm:px-6">
-                    <div class="features-split-inner section-inner has-top-divider">
-                        <div class="split-wrap invert-mobile">
-                            <div class="split-item">
-                                <div class="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
-                                    <h3 class="mt-0 mb-12">Advanced features</h3>
-                                    <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident.</p>
-                                </div>
-                                <div class="split-item-image split-item-image-fill illustration-element-03 reveal-from-right" data-reveal-container=".split-item">
-                                    <img src="images/features-split-image.svg" alt="Features split image 01">
-                                    <div style="position:absolute;width:117.8%;max-width:117.8%;top:-9.9%;left:-5.87%">
-                                        <img src="images/features-split-top-01.png" alt="Features split top 01" width="622" height="510">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="split-item">
-                                <div class="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
-                                    <h3 class="mt-0 mb-12">Advanced features</h3>
-                                    <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident.</p>
-                                </div>
-                                <div class="split-item-image split-item-image-fill illustration-element-04 reveal-from-left" data-reveal-container=".split-item">
-                                    <img src="images/features-split-image.svg" alt="Features split image 02">
-                                    <div style="position:absolute;width:117.8%;max-width:117.8%;top:-9.9%;left:-5.87%">
-                                        <img src="images/features-split-top-02.png" alt="Features split top 02" width="622" height="510">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="split-item">
-                                <div class="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
-                                    <h3 class="mt-0 mb-12">Advanced features</h3>
-                                    <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident.</p>
-                                </div>
-                                <div class="split-item-image split-item-image-fill illustration-element-05 reveal-from-right" data-reveal-container=".split-item">
-                                    <img src="images/features-split-image.svg" alt="Features split image 03">
-                                    <div style="position:absolute;width:117.8%;max-width:117.8%;top:-9.9%;left:-5.87%">
-                                        <img src="images/features-split-top-03.png" alt="Features split top 03" width="622" height="510">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section> -->
-
 			<section class="features-split section">
                 <div class="max-w-6xl mx-auto px-4 sm:px-6">
                     <div class="container">
                         <div class="features-split-inner section-inner">
                             <div class="split-wrap invert-mobile">
                                 <div class="split-item">
-                                    <div class="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
+                                    <div class="split-item-content center-content-mobile reveal-from-left" data-aos="fade-right">
                                         <h3 class="mt-0 mb-12">
                                             Advanced features
                                         </h3>
@@ -311,7 +228,7 @@
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident.
                                         </p>
                                     </div>
-                                    <div class="split-item-image split-item-image-fill illustration-element-03 reveal-from-right" data-reveal-container=".split-item">
+                                    <div class="split-item-image split-item-image-fill illustration-element-03 reveal-from-right" data-aos="fade-left">
                                         <img src="images/features-split-image.svg" alt="Features split image 01">
                                         <!-- this element is for demo purpose only -->
                                         <div style="position:absolute;width:117.8%;max-width:117.8%;top:-9.9%;left:-5.87%;" class="z-10">
@@ -320,7 +237,7 @@
                                     </div>
                                 </div>
                                 <div class="split-item">
-                                    <div class="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
+                                    <div class="split-item-content center-content-mobile reveal-from-right" data-aos="fade-left">
                                         <h3 class="mt-0 mb-12">
                                             Advanced features
                                         </h3>
@@ -328,7 +245,7 @@
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident.
                                         </p>
                                     </div>
-                                    <div class="split-item-image split-item-image-fill illustration-element-04 reveal-from-left" data-reveal-container=".split-item">
+                                    <div class="split-item-image split-item-image-fill illustration-element-04 reveal-from-left" data-aos="fade-right">
                                         <img src="images/features-split-image.svg" alt="Features split image 02">
                                         <!-- this element is for demo purpose only -->
                                         <div style="position:absolute;width:117.8%;max-width:117.8%;top:-9.9%;left:-5.87%;" class="z-10">
@@ -337,7 +254,7 @@
                                     </div>
                                 </div>
                                 <div class="split-item">
-                                    <div class="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
+                                    <div class="split-item-content center-content-mobile reveal-from-left" data-aos="fade-right">
                                         <h3 class="mt-0 mb-12">
                                             Advanced features
                                         </h3>
@@ -345,7 +262,7 @@
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident.
                                         </p>
                                     </div>
-                                    <div class="split-item-image split-item-image-fill illustration-element-05 reveal-from-right" data-reveal-container=".split-item">
+                                    <div class="split-item-image split-item-image-fill illustration-element-05 reveal-from-right" data-aos="fade-left">
                                         <img src="images/features-split-image.svg" alt="Features split image 03">
                                         <!-- this element is for demo purpose only -->
                                         <div style="position:absolute;width:117.8%;max-width:117.8%;top:-9.9%;left:-5.87%;" class="z-10">
@@ -670,9 +587,9 @@
             </section>
 
             <!-- Tabs -->
-            <section class="bg-gray-900 text-gray-100 tracking-tight">
+            <section class="bg-neutral-900 text-gray-100 tracking-tight">
                 <div class="max-w-6xl mx-auto px-4 sm:px-6">
-                    <div class="py-12 md:py-20 border-t border-gray-800">
+                    <div class="py-12 md:py-20">
 
                         <!-- Section header -->
                         <div class="max-w-3xl mx-auto text-center pb-12" data-aos-id-tabs>
@@ -726,7 +643,7 @@
                                         <figure class="md:absolute md:inset-y-0 md:right-0 md:w-1/2">
                                             <img class="w-full h-full object-cover" src="./images/tabs-image-01.jpg" width="516" height="387" alt="Tabs 01" />
                                         </figure>
-                                        <div class="relative bg-gray-800 py-8 md:py-16 px-6 md:pr-16 md:max-w-lg lg:max-w-xl">
+                                        <div class="relative bg-neutral-800 py-8 md:py-16 px-6 md:pr-16 md:max-w-lg lg:max-w-xl">
                                             <h4 class="h4 mb-2">Optimize and scale, easy to start</h4>
                                             <p class="text-lg text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                                             <a class="btn-sm text-white bg-purple-600 hover:bg-purple-700 mt-6" href="#0">
@@ -745,7 +662,7 @@
                                         <figure class="md:absolute md:inset-y-0 md:left-0 md:w-1/2">
                                             <img class="w-full h-full object-cover" src="./images/hero-image-01.jpg" width="516" height="387" alt="Tabs 02" />
                                         </figure>
-                                        <div class="relative bg-gray-800 py-8 md:py-16 px-6 md:pl-16 md:max-w-lg lg:max-w-xl md:ml-auto">
+                                        <div class="relative bg-neutral-800 py-8 md:py-16 px-6 md:pl-16 md:max-w-lg lg:max-w-xl md:ml-auto">
                                             <h4 class="h4 mb-2">Easy to start, optimize and scale</h4>
                                             <p class="text-lg text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                                             <a class="btn-sm text-white bg-purple-600 hover:bg-purple-700 mt-6" href="#0">
@@ -764,7 +681,7 @@
                                         <figure class="md:absolute md:inset-y-0 md:right-0 md:w-1/2">
                                             <img class="w-full h-full object-cover" src="./images/tabs-image-01.jpg" width="516" height="387" alt="Tabs 01" />
                                         </figure>
-                                        <div class="relative bg-gray-800 py-8 md:py-16 px-6 md:pr-16 md:max-w-lg lg:max-w-xl">
+                                        <div class="relative bg-neutral-800 py-8 md:py-16 px-6 md:pr-16 md:max-w-lg lg:max-w-xl">
                                             <h4 class="h4 mb-2">Optimize and scale, easy to start</h4>
                                             <p class="text-lg text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                                             <a class="btn-sm text-white bg-purple-600 hover:bg-purple-700 mt-6" href="#0">
@@ -783,7 +700,7 @@
                                         <figure class="md:absolute md:inset-y-0 md:left-0 md:w-1/2">
                                             <img class="w-full h-full object-cover" src="./images/hero-image-01.jpg" width="516" height="387" alt="Tabs 02" />
                                         </figure>
-                                        <div class="relative bg-gray-800 py-8 md:py-16 px-6 md:pl-16 md:max-w-lg lg:max-w-xl md:ml-auto">
+                                        <div class="relative bg-neutral-800 py-8 md:py-16 px-6 md:pl-16 md:max-w-lg lg:max-w-xl md:ml-auto">
                                             <h4 class="h4 mb-2">Easy to start, optimize and scale</h4>
                                             <p class="text-lg text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                                             <a class="btn-sm text-white bg-purple-600 hover:bg-purple-700 mt-6" href="#0">
@@ -802,7 +719,7 @@
                                         <figure class="md:absolute md:inset-y-0 md:right-0 md:w-1/2">
                                             <img class="w-full h-full object-cover" src="./images/tabs-image-01.jpg" width="516" height="387" alt="Tabs 01" />
                                         </figure>
-                                        <div class="relative bg-gray-800 py-8 md:py-16 px-6 md:pr-16 md:max-w-lg lg:max-w-xl">
+                                        <div class="relative bg-neutral-800 py-8 md:py-16 px-6 md:pr-16 md:max-w-lg lg:max-w-xl">
                                             <h4 class="h4 mb-2">Optimize and scale, easy to start</h4>
                                             <p class="text-lg text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                                             <a class="btn-sm text-white bg-purple-600 hover:bg-purple-700 mt-6" href="#0">
@@ -824,7 +741,7 @@
             </section>
 
             <!-- Testimonials APPLY  -->
-            <section class="font-inter bg-gray-800 text-gray-100">
+            <section class="font-inter bg-[#1D1D20] text-gray-100">
                 <div class="max-w-6xl mx-auto px-4 sm:px-6">
                     <div class="py-12 md:py-20 border-t border-transparent dark:border-gray-800">
 
@@ -999,7 +916,7 @@
             <!-- Testimonials CUBE -->
             <section class="bg-slate-900">
                 <div class="max-w-6xl mx-auto px-4 sm:px-6">
-                    <div class="py-12 md:py-20 border-b border-slate-800">
+                    <div class="py-12 md:py-20">
 
                         <!-- Items -->
                         <div class="max-w-sm mx-auto grid gap-8 md:grid-cols-3 lg:gap-16 items-start md:max-w-none">
@@ -1595,8 +1512,9 @@
 
     <script src="./js/vendors/alpinejs.min.js" defer></script>
     <script src="./js/vendors/aos.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.3.1/swiper-bundle.min.js"></script>
     <script src="./js/main.js"></script>
+    
 </body>
 
 </html>
